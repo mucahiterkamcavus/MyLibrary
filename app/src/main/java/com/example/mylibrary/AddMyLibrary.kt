@@ -44,7 +44,7 @@ class AddMyLibrary : AppCompatActivity() {
             }
 
             override fun onCancelled(error: DatabaseError) {
-                TODO("Not yet implemented")
+
             }
         })
         btnSave.setOnClickListener {
